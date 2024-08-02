@@ -1,0 +1,216 @@
+/* Global */
+:root {
+  --primary-bg-color: #f8e1db;
+  --secondary-bg-color: #faf4f2;
+  --primary-text-color: #000;
+  --secondary-text-color: #8d8d8d;
+  --bg-btn-color: #e8e8e8;
+  --primary-color: #e76f51;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+  color: #000;
+}
+h2 {
+  color: var(--secondary-text-color);
+  font-size: 40px;
+  letter-spacing: -1px;
+}
+h3 {
+  color: var(--secondary-text-color);
+  font-size: 25px;
+}
+.button {
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: var(--primary-bg-color);
+  padding: 10px 100px;
+}
+header .logo img {
+  width: 65px;
+}
+header ul {
+  margin: 10px 0;
+}
+header ul li {
+  margin-right: 50px;
+  display: inline;
+}
+header ul a {
+  color: var(--primary-text-color);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* Carousel */
+section.carousel {
+  background-image: url("./imgs/BG.png");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+}
+
+/* Destination */
+section.destination {
+  background-color: var(--secondary-bg-color);
+  padding: 100px 20px;
+}
+section.destination .head-des {
+  text-align: center;
+}
+section.destination .bg-items-des {
+  padding: 20px;
+  text-align: center;
+  display: float;
+  width: 25%;
+  float: left;
+  margin: 30px 0;
+}
+section.destination .items-des {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 30px;
+}
+section.destination .item-head {
+  position: relative;
+}
+section.destination .item-icon {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  opacity: 0.7;
+}
+section.destination .item-icon i {
+  color: red;
+  font-size: 25px;
+}
+section.destination .item-head img {
+  border-radius: 25px;
+  width: 100%;
+}
+section.destination .item-body {
+  margin: 30px 0;
+}
+section.destination .item-body .item-title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+section.destination .item-body p {
+  color: var(--secondary-text-color);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+section.destination .button-item {
+  padding: 20px 80px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: var(--bg-btn-color);
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+section.destination .button-des {
+  padding: 20px 100px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: transparent;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+/* Contact */
+section.contact {
+  background-color: var(--primary-bg-color);
+}
+section.contact .left {
+  background-image: url("./imgs/mask.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+section.contact .left,
+section.contact .right {
+  display: float;
+  float: left;
+  width: 50%;
+  padding: 20px 60px;
+}
+section.contact .right p {
+  margin: 10px 0 30px 0;
+  font-size: 20px;
+}
+section.contact .download,
+section.contact .download img {
+  display: float;
+  float: left;
+  width: 50%;
+}
+section.contact h2.title {
+  margin-top: 50px;
+}
+section.contact h3.title {
+  margin-bottom: 10px;
+}
+section.contact .follow .icon-follow i {
+  font-size: 40px;
+  margin-right: 10px;
+  color: var(--primary-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--secondary-bg-color);
+  padding-top: 150px;
+  font-size: 20px;
+}
+footer .footer-bg {
+  background-color: var(--primary-bg-color);
+  padding: 100px 50px;
+  border-radius: 150px 150px 0 0;
+}
+footer ul.list1 {
+  display: float;
+  float: left;
+  width: 40%;
+  padding: 0 15px;
+}
+footer ul.list1 p {
+  line-height: 40px;
+}
+footer ul.list4,
+footer ul.list2,
+footer ul.list3 {
+  display: float;
+  float: left;
+  width: 20%;
+  padding: 0 15px;
+}
+footer ul h3 {
+  margin: 40px 0;
+}
+footer ul li {
+  margin: 15px 0;
+}
+footer .copyright {
+  text-align: center;
+  margin-top: 50px;
+}
+.clear {
+  clear: both;
+}
